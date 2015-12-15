@@ -1,15 +1,11 @@
 import java.util.Scanner;
 
-
 public class WarriorLevelClass 
 {
 	public static int Wlevel = 0;
 	
 	public static void level()
 	{
-		
-
-		
 			Wlevel++;
 			System.out.println(WarriorClass.name + ", you have leveled up and gained points to increase your stats.");
 			System.out.println("What would you like to upgrade?");
@@ -36,6 +32,4 @@ public class WarriorLevelClass
 			}
 		
 	}
-	
-	
 }
